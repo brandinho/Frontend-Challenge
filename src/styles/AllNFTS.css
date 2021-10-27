@@ -1,0 +1,29 @@
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 5rem;
+}
+
+#link {
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 5rem;
+  color: inherit;
+  margin: 2rem 0;
+}
+
+#link:hover {
+  color: blue;
+}
+
+#Marketplace {
+  text-decoration: none;
+  color: inherit;
+}

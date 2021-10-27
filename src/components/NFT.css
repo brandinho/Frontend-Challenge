@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+.nft-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  overflow-wrap: break-word;
+
+  width: 22rem;
+}
+
+.nft-attributes {
+  max-width: 20rem;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
